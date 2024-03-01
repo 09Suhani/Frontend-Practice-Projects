@@ -1,0 +1,236 @@
+/* CSS Reset  */
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar  */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    
+}
+#navbar::before{
+        content: "";
+        background-color: black;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.4;
+}
+/* Navigation bar: Logo and Images */
+
+#logo{
+    margin: 10px 45px;
+}
+#logo img{
+    height: 60px;
+    margin: 1px 2px;
+}
+
+/* Navigation Bar: List Styling  */
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size:1.3rem;
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* Home section  */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 633px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    content: "";
+    background: url('https://www.dhamihotel.com/assets/images/sliders/slide-bg/1.jpg');
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+ font-family: 'Unbounded', cursive;
+  
+}
+#home p{
+    color:white;
+    text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Unbounded', cursive;
+}
+/* services section  */
+#services{
+    margin: 34px;
+    display: flex;
+
+}
+#services .Box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 20px;
+
+}
+#services .Box img {
+    height: 160px;
+    margin: auto;
+    display: block;
+    
+}
+#services .Box p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* client section  */
+#client-section{
+          height: 500px;
+          
+}
+#client-section::before{
+          content: "";
+          position: absolute;
+          background: url('https://www.realsimple.com/thmb/Vo0j2jeihAtyHWlaMDVNIGICzs4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/healthy-fast-food-2000-e8be2945bc6747e4864b9f1b4df3e3d5.jpg') no-repeat center center/cover;
+          width: 100%;
+          height: 155%;
+          z-index: -1;
+          opacity: 0.7;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    height: 65px;
+    padding: 18px;
+}
+#clients img{
+    height: 124px;
+}
+   
+
+#client-item{
+    padding: 34px;
+}
+
+ /* contact section   */
+
+ /* #contact{
+     position: absolute;
+     padding: 33px;
+     height: 20px;
+     justify-content: center; 
+ }*/
+
+
+ #contact-box{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 34px;
+ }
+ #contact-box input,
+ #contact-box textarea{
+     width: 100%;
+     padding: 0.5rem;
+     border-radius: 9px;
+     border-color: black;
+     
+    }
+    
+    #contact-box form{
+        width: 40%
+   
+    }
+    #contact-box label{
+         font-size: 1.1rem;    
+         font-family: 'Dancing Script', cursive;
+         font-family: 'Unbounded', cursive;
+   
+    }
+ 
+/* #contact::before{
+    content: "";
+    position: absolute;
+    background: url('../food.jpg') no-repeat center center/cover; 
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+    opacity: 0.7; 
+} */
+
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+/* utility classes */
+.h-primary{
+    font-size: 2.8rem;
+    padding: 32px;
+}
+.h-secondary{
+    font-size: 2.1rem;
+    padding: 12px;
+    text-align: center;
+    font-family: cursive;
+   
+
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+    
+}
