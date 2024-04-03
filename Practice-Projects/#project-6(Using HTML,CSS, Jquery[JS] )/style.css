@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    background:url('https://4kwallpapers.com/images/walls/thumbs_2t/10828.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 100vh; /* Ensure the body takes up the entire viewport height */
+    margin: 0
+}
+.wraper h1{
+    color: white;
+    margin-bottom: 34px;
+}
+.wrapper {
+    width: 300px; 
+    margin: 20px;
+    /* width: 550px; */
+    /* margin: 0 auto; */
+    position: absolute;
+}
+
+label {
+    width: 200px;
+    float: left;
+    position: relative;
+    top: 12px;
+    color: purple;
+}
+
+input {
+    width: 320px;
+    font-size: 25px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    padding: 5px 5px 12px 5px;
+}
+
+.formelement {
+    margin-bottom: 10px;
+}
+
+#submitbutton {
+    width: 130px;
+    margin-left: 200px;
+}
+#error{
+    color: red;
+    font-size: 90%;
+}
+#success{
+    color: white;
+    font-size: 90%;
+}
