@@ -1,0 +1,43 @@
+.header{
+  font-weight: 500;
+  font-size: larger;
+  border: 2px solid;
+  background-color: rgb(138, 6, 6);
+  color: white;
+  text-align: center;
+}
+.formHeader{
+  margin-left: 12px;
+}
+input{
+  margin-bottom: 5px;
+}
+.btn{
+  background-color: rgb(90, 0, 0);
+  color: white;
+}
+.ContactsHeader{
+  font-size: medium;
+  font-weight: 500;
+  font-family: system-ui;
+  margin-left: 12px;
+  margin-top: 20px;
+}
+.addContact{
+  font-size: initial;
+  font-weight: 500;
+  margin-left: 12px;
+  font-family: fantasy;
+}
+.contacts{
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid;
+  background: #FDEFF2;
+  margin-bottom: 2px;
+  margin-left: 12px;
+  margin-right: 5px;
+}
+.email{
+  font-size: x-small;
+}
